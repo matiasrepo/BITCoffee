@@ -226,7 +226,7 @@ main {
 .tienda:hover {
 	color: white;
 	font-family: "Inter", sans-serif;
-	transform: translateY(-10px);
+	transform: translateY(-4px);
 	scale: 1.2;
 	border: 2px solid #e47812;
 	border-radius: 6px;
@@ -245,7 +245,7 @@ main {
 .cGeeks:hover {
 	color: white;
 	font-family: "Inter", sans-serif;
-	transform: translateY(-10px);
+	transform: translateY(-4px);
 	scale: 1.2;
 	border: 2px solid #e47812;
 	border-radius: 6px;;
