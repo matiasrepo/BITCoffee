@@ -175,7 +175,7 @@ main {
 	display: inline-block;
 	color: white;
 	font-family: "Fira Code", monospace;
-	font-size: 2.5rem;
+	font-size: 3rem;
 	cursor: default;
 	border: 1px solid transparent;
 	transition: color 1s;
@@ -186,7 +186,7 @@ main {
 	display: inline-block;
 	color: #ffffff;
 	font-family: "Comfortaa", cursive;
-	font-size: 1rem;
+	font-size: 1.6rem;
 	text-align: left;
 }
 
@@ -214,6 +214,8 @@ main {
 	align-items: center;
 	justify-content: center;
 	gap: 20px;
+	font-size: 1.3rem;
+	padding: 20px 0px 40px 0px;
 }
 
 .tienda {
