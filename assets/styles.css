@@ -10,12 +10,23 @@ font-family: 'Comfortaa', cursive;
 font-family: 'Fira Code', monospace;
 */
 
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+/* llamar fuente
+font-family: 'Inter', sans-serif;
+*/
 * {
 	padding: 0px;
 	margin: 0px;
 	list-style: none;
 	box-sizing: border-box;
 	text-decoration: none;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	background-color: #34495e;
 }
 
 header {
@@ -96,8 +107,12 @@ header {
 }
 
 main {
-	background: url(".//img/cafe/cafe-background.png") center;
-	background-size: 100%;
+	background: rgb(206, 171, 147);
+	background: linear-gradient(
+		77deg,
+		rgba(206, 171, 147, 0.9332107843137255) 0%,
+		rgba(173, 139, 115, 1) 100%
+	);
 }
 
 .hero {
@@ -112,7 +127,7 @@ main {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	align-items:center;
+	align-items: center;
 	padding: 30px 10px 100px 20px;
 	margin: 10px 10px 10px 10px;
 	flex-wrap: nowrap;
@@ -120,61 +135,134 @@ main {
 	height: 70%;
 	gap: 35px;
 	background-color: #994e08;
-	border-radius: 10px 10px 40px 40px;
+	border: 3px solid transparent;
+	border-radius: 10px 10px 10px 10px;
+	transition: background-color 1s, border 3s, border-color 2s;
+	pointer-events: auto;
+	cursor: default;
+}
+
+.hero-info:hover {
+	background-color: #252525;
+	border-color: rgb(0, 0, 0);
+	border: 3px solid white;
+}
+
+.hero-info:hover .hr1 {
+	transform: scale(1.3);
+	background-color: #e47812;
+	border-radius: 10px;
+	border-color: #e47812;
+}
+
+.hero-info:hover .hr2 {
+	transform:scaleX(-1);
+	background-color: #e47812;
+	border-radius: 10px;
+	border-color: #e47812;
+}
+
+
+.heroinfo:hover .hr2 {
+	transform: scale(1.3);
+	background-color: #e47812;
+	height: 30px;
+	border-radius: 10px;
+}
+
+.hero-info:hover h2 {
+	color: #e47812;
 }
 
 .hero-info h2 {
+	display: inline-block;
 	color: #663303;
 	font-family: "Fira Code", monospace;
-	font-size: 35px;
+	font-size: 2.5rem;
+	cursor: default;
+	border: 1px solid transparent;
+	transition: color 1s;
+	cursor: default;
 }
 
 .hero-info p {
+	display: inline-block;
 	color: #ffffff;
 	font-family: "Comfortaa", cursive;
-	font-size: 15px;
+	font-size: 1rem;
 	text-align: left;
 }
 
+.hr1 {
+	width: 20vw;
+	transition: transform 1s, border-color 20ms, background-color 1s;
+}
+
+.hr2 {
+	width: 10vw;
+	transition: transform 1s, border-color 20ms, background-color 1s;
+}
+
 .hero-info span {
+	display: inline-block;
 	color: white;
 }
 
 .hero-links {
 	display: flex;
 	align-items: center;
-	justify-content: space-around;
-	gap: 100px;
-	text-decoration: none;
-	background-color: white;
+	justify-content: center;
+	gap: 20px;
+}
+
+.tienda {
+	color: white;
+	font-family: "Inter", sans-serif;
+	transition: transform 0.5s,scale 1s, border 1s, padding 1s;
+	border: 2px solid transparent;
+	border-radius: 7px;
+}
+
+.tienda:hover {
+	color: white;
+	font-family: "Inter", sans-serif;
+	transform: translateY(-10px);
+	scale: 1.2;
+	border: 2px solid #e47812;
+	border-radius: 6px;
+}
+
+.cGeeks {
+	pointer-events: auto;
+	color: white;
+	font-family: "Inter", sans-serif;
+	transition: transform 0.5s,scale 1s, border 1s, padding 1s;
+	border: 2px solid transparent;
+	border-radius: 7px;
+	padding: 1px 1px 1px 1px;
+}
+
+.cGeeks:hover {
+	color: white;
+	font-family: "Inter", sans-serif;
+	transform: translateY(-10px);
+	scale: 1.2;
+	border: 2px solid #e47812;
+	border-radius: 6px;;
 }
 
 .hero-img {
-	display: flex;
-	align-items: center;
-	flex-direction: column;
-	padding: 10px 10px 10px 10px;
+	display: inline-block;
 	margin: 10px 10px 10px 10px;
 	background-color: #252525;
-	border-radius: 10px 10px 40px 40px;
+	border-radius: 10px 10px 10px 10px;
 	text-align: left;
-	gap: 10px;
 	flex-wrap: nowrap;
 }
 
-.hero-img p {
-	color: #ffffff;
-	font-family: "Comfortaa", cursive;
-	font-size: 15px;
-}
-.hero-img h2 {
-	color: #ffffff;
-	font-family: "Fira Code", monospace;
-	font-size: 35px;
-}
-.croissantsImg {
-	display: flex;
+.cafeImg {
+	display: inline-block;
 	justify-content: flex-end;
-	width: 70%;
-	height: 70%;
+	max-width: 50%;
+	max-height: 50%;
 }
