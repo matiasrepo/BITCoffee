@@ -14,6 +14,16 @@ font-family: 'Fira Code', monospace;
 /* llamar fuente
 font-family: 'Inter', sans-serif;
 */
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+/* llamar fuente 
+font-family: 'Courgette', cursive;
+*/
+
+
 * {
 	padding: 0px;
 	margin: 0px;
@@ -106,12 +116,7 @@ header {
 }
 
 main {
-	background: rgb(206, 171, 147);
-	background: linear-gradient(
-		77deg,
-		rgba(206, 171, 147, 0.9332107843137255) 0%,
-		rgba(173, 139, 115, 1) 100%
-	);
+	background: #BF8B67;
 }
 
 .hero {
@@ -133,7 +138,7 @@ main {
 	width: 30%;
 	height: 70%;
 	gap: 35px;
-	background-color: #994e08;
+	background-color: #603601;
 	border: 3px solid transparent;
 	border-radius: 10px 10px 10px 10px;
 	transition: background-color 1s, border 3s, border-color 2s;
@@ -202,7 +207,7 @@ main {
 
 .hero-info span {
 	display: inline-block;
-	color: black;
+	color: #e38124;
 	transition: color 1s;
 }
 
@@ -269,12 +274,12 @@ main {
 	border-radius: 10px 10px 10px 10px;
 	transition: background-color 1s, border 3s, border-color 2s;
 	pointer-events: auto;
-	cursor: default;
+	cursor: url(https://cdn.custom-cursor.com/db/9097/32/minimal-cup-of-coffee-pointer.png) , pointer!important;
 	text-align: left;
 }
 
 .hero-container-img:hover {
-	background-color:#34495e;
+	background-color:#632626;
 	border: 3px solid white;
 }
 
@@ -296,11 +301,11 @@ main {
 	font-size: 2rem;
 	cursor: default;
 	border: 1px solid transparent;
-	transition: color 1s, scale 1s, transform 1s, font-weight 0.3s;
+	transition: color 1s, scale 1s, transform 1s, font-weight 0.8s;
 }
 .hero-container-img:hover h3 {
 	color: #e47812;
-	font-weight: 600;
+	font-weight: 500;
 	scale: 0.9;
 	transform: translateY(-10px);
 }
@@ -324,7 +329,7 @@ main {
 	opacity: 0;
 	transform: translateY(-10px);
 	scale: 0.8;
-	color: #34495e;
+	color: #632626;
 }
 
 .hero-container-img p:nth-child(2) {
@@ -360,4 +365,38 @@ main {
 	border: 10px solid white;
 	border-radius: 20px;
 	border-color: #252525;
+}
+
+.sPresentation {
+	background-color: #34495e;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	cursor: url(https://cdn.custom-cursor.com/db/9098/32/minimal-cup-of-coffee-cursor.png) , default!important;
+}
+
+h4 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-family: 'Fira Code', monospace;
+	color: white;
+	font-size: 30px;
+	font-weight: 300;
+	padding: 3px;
+	border-radius: 10px;
+	background-color: #252525;
+}
+
+.sPresentation span { 
+	color: #e38124;
+}
+
+.sPresentation p {
+	margin: 10px 20px 10px 20px;
+	font-family: 'Courgette', cursive;
+	font-size: 20px;
+	font-weight: 400;
+	color:#dd8634;
+	text-shadow: rgba(14, 12, 11, 0.788) -1px 1px ;
 }
