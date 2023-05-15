@@ -410,24 +410,57 @@ h4 {
 .barista {
 	background-color: #34495e;
 	display: flex;
-	flex-direction:column;
+	flex-direction: column;
 }
 
-.boxRight {
+.barista h4 {
+	text-align: center;
+	
+}
+
+.boxIzq {
 	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin: 10px;
 	background-color: grey;
+	padding: 10px 10px 10px 10px;
+	gap: 10px;
+	border-radius: 10px;
 }
 
-.imgRight {
+.boxIzq p {
+	text-align: end;
+	padding: 0px 0px 0px 40px;
+	font-size: 1.3rem;
+}
+.imgIzq {
+	width: 400px;
 	max-width: 50%;
 	background-color: yellow;
 }
-.boxLeft {
+
+.boxDer {
 	display: flex;
+	flex-direction: row-reverse;
+	align-content: normal;
+	margin: 10px;
 	background-color: lightblue;
+	padding: 10px;
+	gap: 10px;
+	border-radius: 10px;
+	text-align: start;
+	align-items: center;
 }
 
-.imgLeft {
+.boxDer p {
+	text-align: start;
+	padding: 0px 40px 0px 0px;
+	font-size: 1.3rem;
+}
+.imgDer {
+	width: 400px;
 	max-width: 50%;
 	background-color: yellow;
+	
 }
