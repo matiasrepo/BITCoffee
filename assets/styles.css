@@ -38,6 +38,7 @@ body {
 header {
 	width: 100%;
 	background-color: #594545;
+	display: flex;
 }
 
 main {
@@ -56,7 +57,8 @@ main {
 .navbar {
 	width: 100%;
 	display: flex;
-	justify-content: space-between;
+	flex-direction: row;
+	justify-content: space-evenly;
 	align-items: center;
 	text-align: center;
 	padding: 5px;
@@ -68,7 +70,7 @@ main {
 	color: #ffffff;
 	font-family: "Comfortaa", cursive;
 	font-weight: 600;
-	font-size: 50px;
+	font-size: 2rem;
 	margin-top: 6px;
 	margin-right: auto;
 	margin-left: 70px;
@@ -395,7 +397,7 @@ h4 {
 	padding: 3px;
 	border-radius: 10px;
 	background-color: #252525;
-	
+
 }
 
 .sPresentation span {
@@ -436,27 +438,32 @@ h6 {
 	background-color: #252525;
 	border-radius: 4px;
 }
+
 .barista {
 	background-color: #cac5c5;
 	display: flex;
 	max-width: 100%;
 	overflow: hidden;
-	
+
 }
+
 .barista p {
 	font-family: "Inter", sans-serif;
-	
+
 }
+
 .barista img {
 	border: 1px solid #594545;
 	border-radius: 5px;
 	margin: 10px;
 	max-width: 300px;
 }
+
 .comboBox {
 	display: flex;
-	flex-direction: row;	
+	flex-direction: row;
 }
+
 .boxIzq {
 	padding-bottom: 20px;
 	display: flex;
@@ -477,7 +484,7 @@ h6 {
 	margin-left: 15px;
 	text-align: center;
 	font-size: 0.9rem;
-	color:#dad8d8
+	color: #dad8d8
 }
 
 .boxDer {
@@ -495,7 +502,7 @@ h6 {
 	max-width: 600px;
 }
 
-.boxDer h6{
+.boxDer h6 {
 	background-color: #603601;
 }
 
@@ -509,5 +516,47 @@ h6 {
 
 footer {
 	background: #252525;
+}
+
+footer p {
+	color: white;
+}
+
+.reservaBox {
+	display: flex;
+	flex-direction: column;
+	gap: 10px;
+	align-items: center;
+	justify-content: center;
+	font-family: "Inter", sans-serif;
+	text-align: center;
+	padding: 20px;
+}
+
+.reservaBox span {
+	color: #e47812;
+	font-weight: 500;
+}
+
+.formInput {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	padding: 20px;
+	width: 600px;
+
+}
+
+.form textarea {
+	resize: none;
+}
+
+.form label {
+	display: flex;
+	color: #e47812;
+	font-size: 12px;
+	align-items: center;
+	justify-content: center;
+	gap: 10px;
 }
 

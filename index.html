@@ -164,21 +164,26 @@
 			<div id="carta" class="carta box"></div>
 		</section> -->
 		<footer>
-			<H6>HACE TU RESERVA</H6>
+
 			<section id="reserva" class="reserva">
-				<div class="reserva box">
-					<p>Hace tu reserva con nosotros seleccionando en el calendario a la derecha. Si tenés dudas de
-						nuestra institución podes escribirnos por este mismo formulario
+				<H6>HACE TU RESERVA</H6>
+				<div class="reservaBox">
+					<p>Hacé tu reserva con nosotros seleccionando en el calendario a la derecha. Si tenés dudas de
+						nuestra institución podes escribirnos tus dudas rellenando este mismo formulario y tildando la
+						opción de <span>"Estoy interesadx en cursos de barista"</span>
 					</p>
-					<form action="form">
-					<input type="text" name="nombre" placeholder="Escribí tu nombre...">
-					<input type="text" name="apellido" placeholder="Escribí tu apellido...">
-					<input type="email" name="mail" placeholder="Escribí tu correo...">
-					<textarea name="formulario" id="" cols="30" rows="10" placeholder="Escribí tu consulta acá" ></textarea>
-					<button type="btn">Enviar</button>
-				</form>
+					<form action="form" class="form">
+						<div class="formInput">
+						<input type="text" name="nombre" placeholder="Escribí tu nombre...">
+						<input type="text" name="apellido" placeholder="Escribí tu apellido...">
+						<input type="email" name="mail" placeholder="Escribí tu correo...">
+						<textarea name="formulario" id="" cols="30" rows="10"
+							placeholder="Escribí tu consulta acá"></textarea>
+						<label for="checkbox"><input type="checkbox" name="curso" id="cursoCheckbox">Estoy interesadx en cursos de barista</label>
+					</div>
+						<button type="btn">Enviar</button>
+					</form>
 				</div>
-				
 			</section>
 		</footer>
 
