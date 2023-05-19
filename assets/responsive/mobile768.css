@@ -1,0 +1,62 @@
+@media(min-width: 320px) {
+
+.navbar{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1px;
+
+}
+.navbar h1 {
+    font-size: 1rem;
+    margin-right:unset;
+    margin-left: unset;
+}
+
+.navlist ul {
+    font-size: 10px;
+    flex-direction: row;
+    gap: 35px;
+}
+.icon {
+    display: none;
+}
+
+.hero {
+    flex-direction: column;
+    padding: unset;
+    align-items: center;
+    margin: unset;
+}
+
+.hero-info{
+    width: 99%;
+    margin: unset;
+    gap: 20px;
+    background-color: #252525;
+    
+}
+
+.hero-info h2 {
+    font-size: 2rem;
+    text-align: center;
+}
+.hero-info p {
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.hero-links {
+    flex-direction: row;
+    gap: 5rem;
+    font-size: 1rem;
+}
+.tienda {
+    border-color: #e47812;
+    padding: 5px;
+}
+.cGeeks {
+    border-color: #e47812;
+    padding: 5px;
+}
+}
