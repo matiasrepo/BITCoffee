@@ -1,62 +1,145 @@
 @media(min-width: 320px) {
 
-    .navbar{
+    .navbar {
         flex-direction: column;
         align-items: center;
         text-align: center;
-        padding: 1px;
-    
+        padding: 10px;
+        background-color: #252525;
+
     }
+
     .navbar h1 {
-        font-size: 1rem;
-        margin-right:unset;
+        font-size: 3rem;
+        margin-right: unset;
         margin-left: unset;
+        margin-bottom: 10px;
     }
-    
+
     .navlist ul {
-        font-size: 10px;
+        font-size: 15px;
         flex-direction: row;
-        gap: 35px;
+        gap: 15px;
+        text-decoration: underline white;
     }
+
     .icon {
         display: none;
     }
-    
+
     .hero {
         flex-direction: column;
         padding: unset;
         align-items: center;
         margin: unset;
+        
     }
-    
-    .hero-info{
-        width: 99%;
+
+    .hero-info {
+        width: 100%;
         margin: unset;
         gap: 20px;
         background-color: #252525;
-        
+        border: unset;
+        border-top:3px solid white;
+        border-bottom:3px solid white;
+        border-radius: unset;
+        padding: 10px 10px 10px 10px;
+
     }
-    
+
     .hero-info h2 {
         font-size: 2rem;
         text-align: center;
     }
+
     .hero-info p {
         font-size: 0.8rem;
         text-align: center;
     }
-    
+
     .hero-links {
         flex-direction: row;
-        gap: 5rem;
+        gap: 20px;
         font-size: 1rem;
     }
+
     .tienda {
         border-color: #e47812;
         padding: 5px;
     }
+
     .cGeeks {
         border-color: #e47812;
         padding: 5px;
     }
+
+    .hero-container-img {
+        width: 99%;
+        margin: unset;
+        background-color: #632626;
+        padding-top: 15px;
+        gap: 4px;
+        border-top: none;
     }
+
+    .hero-container-img h3 {
+        text-align: left;
+        font-weight: 500;
+        font-size: 1.3rem;
+        gap: 4px;
+    }
+
+    .hero-container-img p {
+        color: #ffffff;
+        font-family: "Inter", sans-serif;
+        font-size: 1rem;
+    }
+    
+    .hero-container-img:hover h3 {
+        color: white;
+        scale: unset;
+        transform: unset;
+    }
+    .hero-container-img:hover h3 span {
+        color: white;
+    }
+
+    .hero-container-img:hover img {
+        transform: unset;
+        border: 10px solid white;
+        border-radius: 20px;
+        border-color: #252525;
+    }
+    .hero-container-img p:nth-child(2) {
+        visibility: visible;
+        opacity: 1;
+        color: white;
+    }
+    
+    .hero-container-img img {
+        margin-bottom: 5px;
+        max-width: 50%;
+        max-height: 40%;
+    }
+    
+    .sPresentation {
+        padding: 3px 3px 3px 3px;
+        justify-items: center;
+        align-items: center;
+    }
+    
+    h4 {
+        text-align: center;
+        font-size: 2rem;
+        margin: 0px 30px 0px 30px;
+    }
+    .sPresentation p {
+        margin: 10px 5px 10px 5px;
+        padding: 5px;
+        font-family: 'Fira Code', monospace;
+        font-size: 1rem;
+        font-weight: 430;
+
+}
+}
