@@ -21,6 +21,7 @@ font-family: 'Inter', sans-serif;
 font-family: 'Courgette', cursive;
 */
 
+
 * {
 	padding: 0px;
 	margin: 0px;
@@ -44,6 +45,7 @@ header {
 main {
 	background: #f3f3f3;
 }
+
 
 .icon {
 	width: 70px;
