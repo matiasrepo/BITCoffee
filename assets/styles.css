@@ -459,10 +459,6 @@ h6 {
 	max-width: 300px;
 }
 
-.comboBox {
-	display: flex;
-	flex-direction: row;
-}
 
 .boxIzq {
 	padding-bottom: 20px;
