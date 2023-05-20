@@ -32,7 +32,7 @@
         padding: unset;
         align-items: center;
         margin: unset;
-        
+        gap: unset;
     }
 
     .hero-info {
@@ -45,7 +45,10 @@
         border-bottom:3px solid white;
         border-radius: unset;
         padding: 10px 10px 10px 10px;
+    }
 
+    .hero-info:hover {
+        border:3px solid white;
     }
 
     .hero-info h2 {
@@ -75,12 +78,13 @@
     }
 
     .hero-container-img {
-        width: 99%;
+        width: 100%;
         margin: unset;
         background-color: #632626;
         padding-top: 15px;
         gap: 4px;
         border-top: none;
+        border-radius: 0px;
     }
 
     .hero-container-img h3 {
@@ -96,6 +100,10 @@
         font-size: 1rem;
     }
     
+    .hero-container-img:hover {
+        background-color: #632626;
+        border: 3px solid transparent;
+    }
     .hero-container-img:hover h3 {
         color: white;
         scale: unset;
