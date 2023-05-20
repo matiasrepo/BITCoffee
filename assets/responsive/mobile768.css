@@ -1,0 +1,61 @@
+@media(min-width: 768px) {
+
+.hero {
+    flex-direction: row;
+    gap: 10px;
+    margin: 10px 10px 10px 10px;
+    justify-content: center;
+}
+
+
+.hero-info {
+    width: 50%;
+    height: 350px;
+    margin: unset;
+    border: unset;
+    border-radius: 5px;
+}
+.hero-container-img {
+    width: 50%;
+    height: 350px;
+    margin: unset;
+    border-radius: 5px;
+}
+
+.barista {
+    justify-content: center;
+    flex-direction: row;
+	overflow: unset;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: unset;
+    width: 100%;
+
+}
+
+.barista p {
+    font-size: 12px;
+}
+.barista h6 {
+    margin-bottom: 10px;
+}
+.barista img {
+    max-width: 400px;
+}
+.boxIzq {
+    border-radius: 10px;
+    max-width: 45%;
+    margin: unset;
+    gap: unset;
+    margin: unset;
+}
+.boxDer {
+    border-radius: 10px;
+    max-width: 45%;
+    margin: unset;
+    gap: unset;
+    margin: unset;
+}
+}
