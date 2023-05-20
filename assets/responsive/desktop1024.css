@@ -1,0 +1,38 @@
+
+@media(min-width: 1200px) and (max-width: 1366px){
+.barista {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin: unset;
+    max-width: 100%;
+    overflow: unset;
+    gap: 0px;
+}
+
+.barista p {
+    font-size: 12px;
+}
+.barista h6 {
+    margin-bottom: 10px;
+}
+.barista img {
+    max-width: 400px;
+}
+.boxIzq {
+    border-radius: 10px;
+    max-width: 45%;
+    margin: unset;
+    gap: unset;
+    margin: unset;
+}
+.boxDer {
+    border-radius: 10px;
+    max-width: 45%;
+    margin: unset;
+    gap: unset;
+    margin: unset;
+}
+
+
+}
