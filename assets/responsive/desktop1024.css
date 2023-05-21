@@ -1,24 +1,18 @@
 
-@media(min-width: 1200px) and (max-width: 1366px){
-.barista {
-    flex-direction: column;
-    align-items: center;
-    width: 100%;
-    margin: unset;
-    max-width: 100%;
-    overflow: unset;
-    gap: 0px;
-}
+@media(min-width: 769px) and (max-width: 1366px){
+    .barista {
+        justify-content: center;
+        flex-direction: row;
+        overflow: unset;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        background-color: unset;
+        width: 100%;
+    
+    }
 
-.barista p {
-    font-size: 12px;
-}
-.barista h6 {
-    margin-bottom: 10px;
-}
-.barista img {
-    max-width: 400px;
-}
 .boxIzq {
     border-radius: 10px;
     max-width: 45%;
